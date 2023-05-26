@@ -2,7 +2,19 @@
 ![harvester](https://upload.wikimedia.org/wikipedia/commons/3/39/Kauran_puintia_4.jpg)
 Proxy Scraping & Scanning with a twist
 
-DISCLAIMER: USE AT YOUR OWN RISK
+# Set Up
+create settings.env in the base directory and declare your API key eg "API_KEY=1234-1234-1234-1234"
+
+go run cmd/main/main.go
+
+Postman Collection:
+You can use this to manage the API <br/>
+https://github.com/CallumAS/Proxy-Harvest/blob/main/Proxyharvester%20-%20Go.postman_collection.json
+
+
+Special Thanks to @TerminalComedian for helping with the testing & scanning related functions
+
+# DISCLAIMER: USE AT YOUR OWN RISK
 
 The Proxy Harvester is provided "as is" without any warranty, express or implied. The developers of the software make no representations or warranties of any kind regarding the accuracy, reliability, or availability of the software.
 
